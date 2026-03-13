@@ -346,7 +346,8 @@ Possible improvements include:
 Developed by:
 
 Sai Vadlakonda
-BTech CSE (AI & ML)
+BharathSai Yada
+Anjana Reddy Sathu
 
 ---
 
