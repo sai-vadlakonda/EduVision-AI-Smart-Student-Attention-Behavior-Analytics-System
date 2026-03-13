@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pkl
+*.csv
+*.jpg
+*.png
+*.mp4
+phone_evidence/
+embeddings/
+.env

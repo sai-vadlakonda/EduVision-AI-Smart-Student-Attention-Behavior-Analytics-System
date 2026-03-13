@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EduVision AI Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<header>
+EduVision AI Smart Classroom Dashboard
+</header>
+
+<div class="container">
+
+<!-- CARDS -->
+
+<div class="cards">
+
+<div class="card">
+<p>Students</p>
+<h2 id="students">0</h2>
+</div>
+
+<div class="card">
+<p>Average Attention</p>
+<h2 id="attention">0</h2>
+</div>
+
+<div class="card">
+<p>Phone Users</p>
+<h2 id="phones">0</h2>
+</div>
+
+<div class="card">
+<p>Productivity</p>
+<h2 id="productivity">0</h2>
+</div>
+
+</div>
+
+
+<!-- VIDEO + GRAPH -->
+
+<div class="grid">
+
+<div class="panel">
+
+<h3>Live Classroom Feed</h3>
+
+<div class="camera-box">
+<img src="http://127.0.0.1:5000/video">
+</div>
+
+</div>
+
+
+<div class="panel">
+
+<h3>Attention Trend</h3>
+
+<div class="chart-box">
+<canvas id="attentionChart"></canvas>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- EMOTION + ALERTS -->
+
+<div class="grid">
+
+<div class="panel">
+
+<h3>Emotion Distribution</h3>
+
+<div class="chart-small">
+<canvas id="emotionChart"></canvas>
+</div>
+
+</div>
+
+
+<div class="panel">
+
+<h3>Behaviour Alerts</h3>
+
+<div id="alerts" class="alerts-box">
+No alerts
+</div>
+
+</div>
+
+</div>
+
+
+<!-- PHONE VIOLATIONS -->
+
+<div class="panel">
+
+<h3>Phone Violations</h3>
+
+<div class="table-wrapper">
+
+<table id="phoneTable">
+
+<thead>
+<tr>
+<th>Time</th>
+<th>Roll No</th>
+<th>Student</th>
+<th>Evidence</th>
+</tr>
+</thead>
+
+<tbody></tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

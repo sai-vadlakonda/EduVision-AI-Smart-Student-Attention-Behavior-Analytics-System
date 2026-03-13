@@ -1,0 +1,14 @@
+ultralytics
+opencv-python
+numpy
+deepface
+mediapipe
+flask
+fastapi
+uvicorn
+deep-sort-realtime
+tensorflow
+tf-keras
+scikit-learn
+pandas
+matplotlib
