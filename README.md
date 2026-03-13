@@ -345,8 +345,10 @@ Possible improvements include:
 
 Developed by:
 
-Sai Vadlakonda
-BharathSai Yada
+Sai Vadlakonda,
+
+BharathSai Yada,
+
 Anjana Reddy Sathu
 
 ---
